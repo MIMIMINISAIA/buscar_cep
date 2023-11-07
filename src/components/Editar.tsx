@@ -26,7 +26,7 @@ const Editar = () =>{
             cpf: cpf
         }
 
-        axios.put("http://10.137.9.134:8000/api/update", dados,
+        axios.put("http://10.137.9.134:8000/api/atualizarProfissional", dados,
         {
             headers: {
                 "Accept": "application/json",
